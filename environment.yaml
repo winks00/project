@@ -3,22 +3,9 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.11
-  - conda==23.9.0
-  - setuptools
-  - pip
-  - wheel
-  - conda-content-trust
-  - conda-libmamba-solver
-  - menuinst
-  - console_shortcut_miniconda
-  - powershell_shortcut_miniconda
+  - python>=3.10
   - pandas
   - ipykernel
   - jupyterlab
-  - jupyterlab-git
-  - jupyterlab-spellchecker
-  - jupyter-book
-  - nb_conda_kernels
-  - scikit-learn=1.2.1
-prefix: C:\Users\Winky\miniconda3
+  - scikit-learn
+  - matplotlib.pyplot
